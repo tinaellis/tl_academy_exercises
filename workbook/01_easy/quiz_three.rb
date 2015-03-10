@@ -44,6 +44,6 @@
   #How can we use a built in method of string to get the intended
   #result of a normally alphabetically sorted list of names?
 
-
+  puts arr.sort!{ |a, b| b.size <=> a.size }
 
 
